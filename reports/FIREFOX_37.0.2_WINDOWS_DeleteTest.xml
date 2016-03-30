@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="DeleteTest"
+    errors="1" failures="0" hostname="" id="" package="DeleteTest" skipped="0"
+    tests="1" time="7.662" timestamp="Tue, 25 Aug 2015 12:28:00 GMT">
+  
+    <testcase name="Delete Data" time="7.662" assertions="2">
+
+    
+
+    
+    </testcase>
+      <system-err>
+        Unable to locate element: &quot;#45&quot; using: css selector
+Unable to locate element: &quot;#ListEmployeeLink&quot; using: css selector
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>
