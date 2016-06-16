@@ -17,8 +17,8 @@ app.use('/api', employees); //This is our route middleware
 app.use(express.static(__dirname+'/html'));
 
 
-var dbName = 'test';
-var connectionString = 'mongodb://localhost/' + dbName;
+var dbName = '/test';
+var connectionString = 'mongodb://' + process.env.MONGODB_PORT_27017_TCP_ADDR + ':' + process.env.MONGODB_PORT_27017_TCP_PORT  + 'dbName';
  mongoose.connect(connectionString);
 
 module.exports = app;
